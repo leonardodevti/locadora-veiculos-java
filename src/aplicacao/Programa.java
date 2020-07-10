@@ -36,6 +36,7 @@ public class Programa {
 		
 		servicoAluguel.processoFatura(ac);
 		
+		//Imprimindo os dados:
 		System.out.println("Aluguel: ");
 		System.out.println("Pagamento básico: " + String.format("%.2f", ac.getFatura().getPagamentoBasico()));
 		System.out.println("Imposto: " + String.format("%.2f", ac.getFatura().getImposto()));

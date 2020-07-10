@@ -3,13 +3,13 @@ package modelo.entidades;
 public class Veiculo {
 
 	private String modelo;
-	
+
 	public Veiculo() {
-		
+
 	}
 
 	public Veiculo(String modelo) {
-	
+
 		this.modelo = modelo;
 	}
 
@@ -20,10 +20,5 @@ public class Veiculo {
 	public void setModelo(String modelo) {
 		this.modelo = modelo;
 	}
-	
-	
-	
-	
-	
-	
+
 }
